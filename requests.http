@@ -1,0 +1,15 @@
+GET http://localhost:8080/token
+Content-Type: application/json
+
+{
+    "randomNumber": 6
+}
+
+###
+
+POST http://localhost:8080/message
+Content-Type: application/json
+
+{
+    "message": "message for you sir"
+}
