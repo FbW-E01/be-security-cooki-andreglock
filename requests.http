@@ -1,4 +1,4 @@
-GET http://localhost:8080/token
+POST http://localhost:8080/token
 Content-Type: application/json
 
 {
